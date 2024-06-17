@@ -2,6 +2,7 @@ const { Telegraf } = require('telegraf')
 const { message } = require('telegraf/filters')
 
 const bot = new Telegraf("7113259897:AAEssuqa1NWfHrRqubO2S0b00O8Pl_3k7AA")
+console.log("Mulai")
 bot.start((ctx) => ctx.reply('Welcome'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
 
